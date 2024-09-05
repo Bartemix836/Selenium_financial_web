@@ -15,7 +15,7 @@ from page_object_pattern_webFIN.pages.base_page import BasePage
 @pytest.fixture(scope="module")
 def driver():
     # Path to downloaded msedgedriver
-    driver_path = "C:/Users/barte/PycharmProjects/selenium_kurs/drivers/msedgedriver.exe"
+    driver_path = "Add path to driver.exe"
     service = EdgeService(driver_path)
 
     # Settings for Edge browser options

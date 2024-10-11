@@ -16,7 +16,6 @@ Install all the above libraries in your virtual or global environment (e.g., in 
 Make sure your project structure is correct (with pages, tests folders).
 Run the test with the command:
 bash
-Skopiuj kod
 pytest --html=reports/raport_kryptochart.html --self-contained-html
 After the tests are completed, check the generated HTML report in the reports folder.
 By following these steps, Selenium tests will run according to your code, and reports will be generated automatically.

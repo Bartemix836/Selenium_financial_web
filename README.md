@@ -4,6 +4,9 @@ Webdriver Manager: pip install webdriver-manager
 pytest: pip install pytest
 pytest-html: pip install pytest-html
 (optional) msedge-selenium-tools: pip install msedge-selenium-tools
+
+
+
 Additional notes:
 Edge Browser: Make sure you have Microsoft Edge installed on your computer since we are using Edge in this example.
 WebDriver for Edge: webdriver-manager will automatically download the appropriate version of WebDriver (EdgeDriver), so you don't need to do it manually.
